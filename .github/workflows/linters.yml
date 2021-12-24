@@ -22,3 +22,7 @@ jobs:
           else
             bundle exec pronto run --exit-code -c origin/${{ github.base_ref }}
           fi
+      - name: comment-hider
+        uses: kanga333/comment-hider@v0.3.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
