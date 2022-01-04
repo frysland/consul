@@ -1467,6 +1467,13 @@ footer {
   .budget-next-phase-disabled::before {
     left: 52px;
   }
+
+  .budget-phase {
+
+    @include breakpoint(medium) {
+      width: auto;
+    }
+  }
 }
 
 .ballot .subtitle {
