@@ -10,3 +10,13 @@ p,
 a {
   font-family: $body-font-family;
 }
+
+.ssb-linkedin {
+  @include has-fa-icon(linkedin, brands);
+  background: #0e76a8;
+
+  &:hover,
+  &:focus {
+    color: #0e76a8;
+  }
+}

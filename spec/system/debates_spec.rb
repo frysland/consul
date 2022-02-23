@@ -92,13 +92,14 @@ describe "Debates" do
 
   describe "Social share buttons" do
     context "On desktop browsers" do
-      scenario "Shows links to share on facebook and twitter" do
+      scenario "Shows links to share on facebook, twitter and linkedin" do
         visit debate_path(create(:debate))
 
         within(".social-share-button") do
-          expect(page.all("a").count).to be(2)
+          expect(page.all("a").count).to be(3)
           expect(page).to have_link "Share to Facebook"
           expect(page).to have_link "Share to Twitter"
+          expect(page).to have_link "Share to Linkedin"
         end
       end
     end
@@ -108,9 +109,10 @@ describe "Debates" do
         visit debate_path(create(:debate))
 
         within(".social-share-button") do
-          expect(page.all("a").count).to be(4)
+          expect(page.all("a").count).to be(5)
           expect(page).to have_link "Share to Facebook"
           expect(page).to have_link "Share to Twitter"
+          expect(page).to have_link "Share to Linkedin"
           expect(page).to have_link "Share to Telegram"
           expect(page).to have_link "Share to WhatsApp"
         end
