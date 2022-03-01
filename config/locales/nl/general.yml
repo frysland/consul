@@ -125,8 +125,8 @@ nl:
       more_info: Meer informatie
       recommendation_four: Geniet van deze ruimte, en van de stemmen die 'm vullen.
       recommendation_one: Gebruik geen hoofdletters voor de titel, of voor hele zinnen. Dit is equivalent aan schreeuwen op het internet, en niemand houdt ervan toegeschreeuwd te worden.
-      recommendation_three: Stevige kritiek is welkom, dit is de plek daarvoor. Maar we raden je wel aan beleefd en intelligent te handelen, dan blijft deze ruimte leefbaar.
-      recommendation_two: Ieder debat of reactie waarin een illegale activiteit wordt aanmoedigt zal worden verwijderd, en ook die welke het debat saboteren. Verder is alles toegestaan.
+      recommendation_three: "Stevige kritiek is welkom, dit is de plek daarvoor. Maar we raden u wel aan beleefd en intelligent te handelen, dan blijft deze ruimte leefbaar"
+      recommendation_two: "Ieder debat of reactie waarin een illegale activiteit wordt aangemoedigd zal worden verwijderd, en ook die welke het debat saboteren. Verder is alles toegestaan"
       recommendations_title: Advies bij het starten van een debat
       start_new: Debat starten
     show:
@@ -271,7 +271,7 @@ nl:
       title: Trek voorstel terug
       warning: "Als u het voorstel terugtrekt kan het nog steeds ondersteund worden. Het wordt verwijderd van de hoofdlijst en er wordt een bericht zichtbaar voor alle deelnemers waarin wordt verklaard dat de auteur van mening is dat het voorstel niet meer ondersteund zou moeten worden"
       retired_reason_blank: Kies één van de mogelijkheden
-      retired_explanation_placeholder: Leg kort uit waarom u denkt dat dit voorstel niet meer gesteund moet worden
+      retired_explanation_placeholder: "Leg kort uit waarom u denkt dat dit initiatief niet meer gesteund moet worden."
       submit_button: Trek voorstel terug
     retire_options:
       duplicated: Dubbele
@@ -282,13 +282,13 @@ nl:
     form:
       proposal_responsible_name_note: "(individueel of als vertegenwoordiger van een collectief; niet publiek zichtbaar)"
       proposal_summary_note: "(max is 200 letters)"
-      proposal_video_url_note: U kunt een link naar YouTube of Vimeo toevoegen
+      proposal_video_url_note: "U kunt een link van een Youtube of Vimeo video toevoegen"
       tag_category_label: "Categories"
-      tags_instructions: "Label dit voorstel. U kunt uw eigen categorie kiezen of één van de bestaande."
+      tags_instructions: "U kunt dit voorstel een label geven. U kunt uw eigen categorie kiezen, of één van de bestaande."
       tags_label: Tags
       tags_placeholder: "Voer de labels in die je wilt gebruiken, gescheiden door kommas (',')"
       map_location: "Locatie"
-      map_location_instructions: "Beweeg de kaart en wijs de locatie aan."
+      map_location_instructions: "Klik op de kaart om de locatie aan te geven. U kunt de kaart bewegen."
       map_remove_marker: "Locatie verwijderen"
       map_skip_checkbox: "De locatie voor het voorstel is niet bekend."
     index:
@@ -307,7 +307,7 @@ nl:
         disable: "Aanbevelingen van voorstellen worden niet meer weergegeven als u ze negeert. U kunt ze weer inschakelen op de pagina 'Mijn account'"
         actions:
           success: "Aanbevelingen voor voorstellen zijn nu uitgeschakeld voor dit account"
-          error: "Er is een fout opgetreden. Ga naar de pagina 'Uw account' om aanbevelingen voor voorstellen handmatig uit te schakelen"
+          error: "Er is een fout opgetreden. Ga naar de pagina \"Mijn account\" om aanbevelingen voor voorstellen handmatig uit te schakelen"
       retired_proposals: Teruggetrokken voorstellen
       retired_proposals_link: "Teruggetrokken voorstellen"
       retired_links:
@@ -322,7 +322,7 @@ nl:
         placeholder: Zoek voorstellen..
         title: Search
       select_order: Order by
-      select_order_long: "U ziet de voorstellen op:"
+      select_order_long: "U ziet initiatieven op:"
       start_proposal: Maak een nieuw voorstel
       title: Voorstellen
       top: Wekelijkse top
@@ -605,7 +605,10 @@ nl:
       send_private_message: "Stuur privé bericht"
       delete_alert: "Weet je zeker dat je jouw investeringsproject wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
     proposals:
-      retired: "Teruggetrokken"
+      draft: "Konsept"
+      published: "Publisearre"
+      retired: "Weromlutsen"
+      actions: "Aksjes"
       see: "Bekijk voorstel"
   votes:
     agree: Ik ben het eens

@@ -29,6 +29,7 @@ nl:
           description: "Dit zijn de huidige plannen van de gemeente. Afhankelijk van het soort plan kunt u opmerkingen maken op het document, discussies starten of voorstellen indienen."
         section_footer:
           title: "Hulp bij inspraak"
+          description: "Neem deel aan debatten en plannen voorafgaand aan de totstandkoming van verordeningen, beleid en uitvoering. Uw mening telt."
       process:
         see_latest_comments: "Bekijk plan"
       shared:
@@ -46,7 +47,6 @@ nl:
           other: "%{count} reacties"
       comments:
         cancel: "Annuleren"
-        publish_comment: "Publiceer reactie"
         comments_count:
           one: "%{count} reactie"
           other: "%{count} reacties"
@@ -57,6 +57,11 @@ nl:
     questions:
       question:
         debate: "Discussie"
+      comments:
+        form:
+          leave_comment: "Laat uw reactie achter"
+      participation:
+        unauthenticated: "U moet %{signin} of %{signup} om deel te nemen."
     proposals:
       form:
         tags_label: "Onderwerpen/labels"
