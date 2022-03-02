@@ -39,3 +39,6 @@ fy-NL:
       x_years:
         one: "%{count} jier"
         other: "%{count} jierren"
+  helpers:
+    submit:
+      create: "%{model} yntsjinje"

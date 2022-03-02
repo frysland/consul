@@ -6,7 +6,7 @@ nl:
         no_balloted_group_yet: "U heeft nog niet gestemd"
         voted:
           one: "U heeft op <span>1</span> ideeën gestemd"
-          other: "U heeftt op <span>%{count}</span> ideeën gestemd"
+          other: "U heeft op <span>%{count}</span> ideeën gestemd"
         voted_info: "Uw stem is bevestigd"
         voted_info_2: "U kunt uw stem altijd aanpassen tot deze fase wordt gesloten"
         back: "Ga terug"
@@ -17,9 +17,9 @@ nl:
             zero: "Stemmen uitgebracht: <span>%{count}</span>"
             one: "Stemmen uitgebracht: <span>%{count}</span>"
             other: "Stemmen uitgebracht: <span>%{count}</span>"
-        remaining: "U kunt nog <span>%{amount}</span> uitgeven"
+        remaining: "U kunt nog <span>%{amount}</span> spenderen"
         remove: "Verwijder keuze"
-        zero: "U hebt op geen enkel idee gestemd."
+        zero: "U heeft op geen enkel idee gestemd."
         amount_limit:
           knapsack: "%{count}"
           approval:
@@ -33,11 +33,13 @@ nl:
             other: "U kunt nog <span>%{count}</span> stemmen uitbrengen."
       reasons_for_not_balloting:
         not_selected: "Op niet-geselecteerde ideeën kan niet worden gestemd"
-        not_enough_money: "U kunt dit geld nu niet meer uitgeven. Als u wilt kunt u uw stem altijd aanpassen tijdens de stemfase."
+        not_enough_money: "U kunt dit geld nu niet meer besteden. Als u wilt kunt u uw stem altijd aanpassen tijdens de stemfase."
         not_verified: "Alleen geverifieerde gebruikers kunnen op ideeën stemmen; %{verify_account}."
-        change_ballot: "Wijzig uw stem"
+        change_ballot: "Wijzig u stem"
         no_ballots_allowed: "De selectieronde is voorbij"
-        different_heading_assigned: "U hebt al gestemd in een andere groep: %{heading_link}"
+        different_heading_assigned: "U heeft al gestemd in een andere groep: %{heading_link}"
+        not_logged_in: "U moet %{signin} of %{signup} om verder te gaan."
+        casted_offline: "U heeft al offline deelgenomen"
     groups:
       show:
         unfeasible_title: "Niet stembare ideeën"
@@ -66,7 +68,7 @@ nl:
         description: "Beslis mee over de verdeling van geld tussen verschillende ideeën en projecten."
       supports_info:
         title: "U kunt nu ideeën <strong>steunen</strong>!"
-        next: "Steun de ideeën die u graag uitgevoerd wil zien."
+        next: "Steun de ideeën die u graag uitgevoerd wilt zien."
         remember: "U mag zoveel verschillende ideeën steunen als u wilt."
         different: "Maar... u kunt ieder idee slechts één keer steunen. En uw steun is definitief."
         supported: "Tot nu toe heeft u <strong>%{count} ideeën</strong> gesteund."
@@ -89,27 +91,27 @@ nl:
         by_heading: "Ideeën voor %{heading}"
         sidebar:
           voted:
-            one: "U heeftt op <strong>1 idee</strong> gestemd die in totaal %{amount_spent} kosten."
+            one: "U heeft op <strong>1 idee</strong> gestemd die in totaal %{amount_spent} kost."
             other: "U heeft op <strong>%{count} ideeën</strong> gestemd die in totaal %{amount_spent} kosten."
           voted_info:
             knapsack:
-              one: "U heeft op <strong>1 idee</strong> gestemd die in totaal %{amount_spent} kosten."
+              one: "U heeft op <strong>1 idee</strong> gestemd die in totaal %{amount_spent} kost."
               other: "U heeft op <strong>%{count} ideeën</strong> gestemd die in totaal %{amount_spent} kosten."
             approval:
               one: "<strong>U heeft op 1 idee gestemd</strong>"
               other: "<strong>U heeft op %{count} ideeën gestemd</strong>"
           voted_info_link: "Uw stem wijzigen"
           create: "Nieuw idee delen"
-          zero: "U heeftt nog niet op een idee gestemd"
-          change_ballot: "Als u zich bedenkt kunt u uw stemmen in %{check_ballot} verwijderen en opnieuw stemmen."
+          zero: "U hebt nog niet op een idee gestemd."
+          change_ballot: "Als u u bedenkt kunt u uw stemmen in %{check_ballot} verwijderen en opnieuw beginnen."
           check_ballot_link: "Bekijk mijn stemmen"
           different_heading_assigned: "U heeft al gestemd in een andere groep: %{heading_link}"
           my_ballot: "Mijn stemmen"
           not_logged_in: "Om een idee in te dienen moet u %{sign_in} of %{sign_up}."
           sign_in: "inloggen"
           sign_up: "registreren"
-          verified_only: "%{verify} Uw account om een idee in te dienen."
-          verify_account: "Uw account verifieren"
+          verified_only: "%{verify} uw account om een idee in te dienen."
+          verify_account: "Uw account verifiëren"
           change_vote_info:
             knapsack: "U kunt %{link} tot %{phase_end_date}. Het is niet verplicht al het budget te besteden."
             approval: "U kunt %{link} tot %{phase_end_date}."
@@ -159,7 +161,7 @@ nl:
         edit_permission: "U moet zelf het idee hebben ingediend om het te kunnen bewerken."
         updated_notice: "Uw idee is aangepast."
         tag_category_label: "Categorieën"
-        tags_placeholder: "Voer het woord in dat u wilt gebruiken, gescheiden door kommas (',')"
+        tags_placeholder: "Voer de categorie in die u wilt gebruiken, gescheiden door kommas (',')"
       investment:
         price_title: "Prijs"
         support_title: "Stemmen"
@@ -170,16 +172,16 @@ nl:
           one: "1 steunbetuiging"
           other: "%{count} steunbetuigingen"
         already_added: "U heeft dit idee al toegevoegd"
-        already_supported: "U heeft dit idee al gesteund. Deel het!"
+        already_supported: "U hebt dit idee al gesteund. Deel het!"
         confirm_group:
-          one: "U kunt ideeën in %{count} groep steunen. Als u verder gaat is dat definitief. U kunt dan niet meer in andere groepen steunen. Weet u dat zeker?"
-          other: "U kunt ideeën in %{count} groep steunen. Als u verder gaat is dat definitief. U kunt dan niet meer in andere groepen steunen. Weet u dat zeker?"
+          one: "U kunt ideeën in %{count} groep steunen. Als u verder gaat is dat definitief. U kunt dan niet meer in andere groepen steun geven. Weet u dat zeker?"
+          other: "U kunt ideeën in %{count} groep steunen. Als u verder gaat is dat definitief. U kan dan niet meer in andere groepen steunen. Weet u dat zeker?"
       header:
         check_ballot: "Bekijk mijn stemmen"
         check_ballot_link: "Bekijk mijn stemmen"
         price: "Dit proces heeft een budget van"
-        change_ballot: "Als u zich bedenkt kunt u uw stemmen in %{check_ballot} verwijderen en opnieuw beginnen."
-        different_heading_assigned: "U heeftt al gestemd in een andere groep: %{heading_link}"
+        change_ballot: "Als u u bedenkt kunt u uw stemmen in %{check_ballot} verwijderen en opnieuw beginnen."
+        different_heading_assigned: "U heeft al gestemd in een andere groep: %{heading_link}"
       share:
         message: "Dit is een goed idee voor de provincie Fryslân"
     show:

@@ -49,7 +49,7 @@ nl:
       hi: "Beste deelnemer,"
       new_href: "nieuw investeringsproject"
       sincerely: "Oprecht"
-      sorry: "Sorry for the inconvenience and we again thank you for your invaluable participation."
+      sorry: "Uw idee is helaas niet haalbaar. We danken u voor uw deelname."
       subject: "Uw investeringsproject '%{code}' is als onhaalbaar gemarkeerd"
     budget_investment_selected:
       subject: "Uw budget voorstel '%{code}' is geselecteerd"

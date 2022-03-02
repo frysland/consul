@@ -1,5 +1,16 @@
 nl:
   devise_views:
+    mailer:
+      confirmation_instructions:
+        text: "U kunt uw e-mailadres bevestigen via de volgende link:"
+      reset_password_instructions:
+        ignore_text: "Negeer deze mail als u geen nieuw wachtwoord hebt aangevraagd."
+        info_text: "Uw wachtwoord wordt niet aangepast tot je op de link klikt."
+        text: "We hebben een verzoek tot wijziging van uw wachtwoord ontvangen. U kunt dit doen via de volgende link:"
+      unlock_instructions:
+        info_text: "Uw account is geblokkeerd vanwege een te groot aantal mislukte inlogpogingen."
+        instructions_text: "Klik deze link om uw account te de-blokkeren:"
+        title: "Uw account is geblokkeerd"
     menu:
       login_items:
         login: "Inloggen"
@@ -8,7 +19,7 @@ nl:
     shared:
       sign_in: "Inloggen bestaand account"
       sign_up: "Aanmelden nieuw account"
-      not_organization: "Vertegenwoordigt u geen organisatie of collectief? Meld u zich dan %{link} aan."
+      not_organization: "Vertegenwoordigt u geen organisatie of collectief? Meld u dan %{link} aan."
       not_organization_link: "hier"
       links:
         new_confirmation: "Geen activeringsinstructies voor uw account ontvangen?"
@@ -36,19 +47,24 @@ nl:
           organization_signup: "Vertegenwoordigt u een organisatie of collectief? Meld u dan %{signup_link} aan."
           organization_signup_link: "hier"
           username_note: "De opgegeven naam zal zichtbaar zijn voor andere gebruikers"
-          terms: "Ik ben een inwoner van de provincie Fryslân en ik accepteer de %{terms}."
+          terms: "Ik ben een inwoner van de provincie Fryslân, of een \"Fries om útens\" en ik accepteer de %{terms}."
           terms_link: "gebruiksvoorwaarden"
-          terms_title: "Ik ben een inwoner van de provincie Fryslân en ik accepteer de gebruiksvoorwaarden"
+          terms_title: "Ik ben een inwoner van de provincie Fryslân of een \"Fries om útens\" en ik accepteer de  gebruiksvoorwaarden"
           submit: "Aanmelden"
           username_label: "Gebruikersnaam"
           username_note: "De opgegeven naam zal zichtbaar zijn voor andere gebruikers"
         success:
-          title: "Verifieer uw e-mailadres"
+          title: "Verifieer uw<br>e-mailadres"
           instructions_1: "Bekijk uw mailbox - we hebben een mail gestuurd met een link om uw e-mailadres te verifiëren."
           instructions_2: "Wanneer u dit hebt geverifieerd, kunt u meedoen op het platform."
-          thank_you: "Bedankt voor het invullen van uw gegevens. Om uw aanmelding te voltooien moet u uw e-mailadres verifiëren. "
+          thank_you: "Bedankt voor het invullen van uw gegevens. Om uw aanmelding te voltooien moet u uw e-mailadres verifiëren."
+        delete_form:
+          info: "Dit kunt u niet ongedaan maken. Bevestig dat u dit echt wilt."
+        edit:
+          leave_blank: "Laat leeg als u het niet wilt aanpassen"
+          need_current: "Uw huidige wachtwoord"
     confirmations:
       new:
         title: "Stuur verificatie instructies opnieuw"
       show:
-        submit: "Bevestig"
+        submit: "Stuur instructies"
