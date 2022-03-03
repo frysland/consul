@@ -1,5 +1,3 @@
-<%= render "shared/globalize_locales", resource: @proposal %>
-
 <%= translatable_form_for(@proposal, url: form_url) do |f| %>
 
   <%= render "shared/errors", resource: @proposal %>
@@ -8,6 +6,12 @@
     <div class="row">
       <div class="small-12 column">
         <p class="subtitle-form"><%= t("shared.required") %></p>
+      </div>
+
+      <div class="row">
+        <div class="small-12 column">
+          <%= render "shared/globalize_locales", resource: @proposal %>
+        </div>
       </div>
 
       <%= f.translatable_fields do |translations_form| %>
