@@ -34,7 +34,7 @@ fy-NL:
       login_items:
         login: "Ynlogge"
         logout: "Utlogge"
-        signup: "Registrearje"
+        signup: "Akkount oanmeitsje"
     organizations:
       registrations:
         new:
@@ -45,15 +45,15 @@ fy-NL:
           phone_number_label: "Telefoannûmer"
           responsible_name_label: "Folsleine namme fan de fertsjintwurdiger fan it kollektyf"
           responsible_name_note: "Dit is de persoan dy’t út namme fan de feriening of it kollektyf inisjativen yntsjinnet"
-          submit: "Registrearje"
-          title: "As organisaasje of kollektyf registrearje"
+          submit: "Akkount oanmeitsje"
+          title: "As organisaasje of kollektyf in akkount meitsje"
         success:
           back_to_index: "Begrepen; werom nei haadside"
           title: "Oanmelde fan organisaasje of kollektyf"
           instructions_1: "Wy nimme sa gau mooglik kontakt mei jo op om it kollektyf of de feriening te ferifiearjen."
           instructions_2: "Wy hawwe in mail mei in befêstigingslink stjoerd nei it e-mailadres dat opjûn is."
           instructions_3: "Klik op de link om it akkount te befêstigjen. Dêrnei kinne jo as kollektyf of feriening meidwaan."
-          thank_you: "Betanke foar it registrearjen as kollektyf of feriening op de webside."
+          thank_you: "Betanke foar in akkount meitsje as kollektyf of feriening op de webside."
     passwords:
       edit:
         change_submit: "Feroarje it wachtwurd"
@@ -79,7 +79,7 @@ fy-NL:
         new_unlock: "Gjin ynstruksjes foar it deblokkearjen krige?"
         signin_with_provider: "Loch yn mei %{provider}"
         signup: "Gjin akkount? %{signup_link}"
-        signup_link: "Registrearje"
+        signup_link: "Akkount oanmeitsje"
       sign_in: "Ynlogge mei besteand akkount"
       sign_up: "Oanmelde mei nij akkount"
       not_organization: "Fertsjintwurdigje jo in organisaasje of in kollektyf? Meld jo dan %{link} oan."

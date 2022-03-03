@@ -115,7 +115,7 @@ fy-NL:
           voted_info_link: "Jo stim wizigje"
           different_heading_assigned: "Jo hawwe al stimd yn in oare groep: %{heading_link}"
           sign_in: "Ynlogge"
-          sign_up: "Registrearje"
+          sign_up: "Akkount oanmeitsje"
           verify_account: "Jo account ferifiearje"
           change_vote_info:
             knapsack: "Jo kinne oant %{phase_end_date}. It is net ferplicht om al it budzjet te besteegjen."
