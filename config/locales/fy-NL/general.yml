@@ -162,8 +162,9 @@ fy-NL:
   comments_helper:
     comments_title: "Reaksjes"
   users:
-    login_to_comment: "Jo moatte %{signin} of jo %{signup} om reagearje te kinnen."
-    login_to_continue: "Jo moatte %{signin} of jo %{signup} om fierder te gean."
+    login_to_comment: "Jo moatte %{signin} of %{signup} om reagearje te kinnen."
+    login_to_continue: "Jo moatte %{signin} of %{signup} om fierder te gean."
+    sign_up: "in akkount oameitsje"
     show:
       proposals: "Inisjativen"
       budget_investments: "Ideeën"
@@ -269,7 +270,7 @@ fy-NL:
         title: "Help by diskusjes"
         description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen dy't jo belangryk fine."
         help_text_1: "Diel jo miening oer alderhanne ûnderwerpen, kânsen of knyppunten dy't jo wichtich fine."
-        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo jo registrearje op %{org}."
+        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo in akkount meitsje op %{org}."
         help_text_link: "Oanmelde"
       search_results:
         one: "mei de tekst <strong>'%{search_term}'</strong>"

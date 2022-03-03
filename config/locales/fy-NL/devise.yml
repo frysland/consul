@@ -40,9 +40,9 @@ fy-NL:
       updated_not_active: "Jo wachtwurd is wizige"
     registrations:
       destroyed: "Spitich dat jo fuortgean! Jo akkount is mei sukses wiske. Wy hoopje jo nochris in kear werom te sjen."
-      signed_up: "Jo binne registrearre"
-      signed_up_but_inactive: "Jo binne registrearre. Jo koene allinne net automatysk oanmeld wurde omdat jo akkount noch net aktivearre is. Klik dêrfoar op de link dy’t nei jo e-mailadres stjoerd is. Gjin mail krige? Nim dan kontakt op mei stimfan@fryslan.frl "
-      signed_up_but_locked: "Jo binne registrearre. Jo koene allinne net automatysk oanmeld wurde omdat jo akkount blokkearre is. Nim dêrfoar kontakt op mei stimfan@fryslan.frl "
+      signed_up: "Jo hawwe in akkount"
+      signed_up_but_inactive: "Jo hawwe in akkount. Jo koene allinne net automatysk oanmeld wurde omdat jo akkount noch net aktivearre is. Klik dêrfoar op de link dy't nei jo e-mailadres stjoerd is. Gjin mail krige? Nim dan kontakt op mei stimfan@fryslan.frl"
+      signed_up_but_locked: "Jo hawwe in akkount. Jo koene allinne net automatysk oanmeld wurde omdat jo akkount blokkearre is. Nim dêrfoar kontakt op mei stimfan@fryslan.frl"
       signed_up_but_unconfirmed: "Jo krije fia de e-mail ynstruksjes oer hoe’t jo jo akkount aktivearje kinne. Gjin mail krige? Nim dan kontakt op mei stimfan@fryslan.frl "
       update_needs_confirmation: "Jo hawwe jo e-mailadres mei sukses wizige, mar wy moatte jo nije mailadres noch ferifiearje. Kontrolearje jo e-mail en klik op de link yn de mail om jo mailadres te ferifiearjen."
       updated: "Dyn akkountgegevens binne opslein"

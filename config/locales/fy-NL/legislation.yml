@@ -130,7 +130,7 @@ fy-NL:
       participation:
         debate_phase_not_open: "De diskusje is sletten en opmerkings wurde net mear akseptearre."
         organizations: "Organisaasjes mei net oan diskusjes meidwaan"
-        unauthenticated: "Jo moatte%{signin} of %{signup} om mei te dwaan."
+        unauthenticated: "Jo moatte %{signin} of %{signup} om mei te dwaan."
     summary:
       title: "Gearfetting"
       votes:
