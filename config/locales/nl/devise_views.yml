@@ -106,6 +106,7 @@ nl:
           organization_signup_link: Hier aanmelden
           password_confirmation_label: Bevestig wachtwoord
           password_label: Wachtwoord
+          password_note: "Deze dient minimaal uit 8 tekens te bestaan"
           redeemable_code: Verificatiecode ontvangen via email (optioneel)
           submit: Aanmelden
           terms: Met aanmelding accepteerd u de %{terms}
