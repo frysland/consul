@@ -22,7 +22,7 @@ nl:
       not_organization: "Vertegenwoordigt u geen organisatie of collectief? Meld u dan %{link} aan."
       not_organization_link: "hier"
       links:
-        new_confirmation: "Geen activeringsinstructies voor uw account ontvangen?"
+        new_confirmation: "Geen activeringsinstructie voor uw account gekregen, ook niet in uw spam?"
         login: "Inloggen"
     organizations:
       registrations:
@@ -47,9 +47,9 @@ nl:
           organization_signup: "Vertegenwoordigt u een organisatie of collectief? Meld u dan %{signup_link} aan."
           organization_signup_link: "hier"
           username_note: "De opgegeven naam zal zichtbaar zijn voor andere gebruikers"
-          terms: "Ik ben een inwoner van de provincie Fryslân, of een \"Fries om útens\" en ik accepteer de %{terms}."
-          terms_link: "gebruiksvoorwaarden"
-          terms_title: "Ik ben een inwoner van de provincie Fryslân of een \"Fries om útens\" en ik accepteer de  gebruiksvoorwaarden"
+          terms: "Ik ben een inwoner van de provincie Fryslân, of een \"Fries om utens\" en ik accepteer de %{terms}."
+          terms_link: "spelregels"
+          terms_title: "Ik ben een inwoner van de provincie Fryslân of een \"Fries om utens\" en ik accepteer de %{terms}."
           submit: "Aanmelden"
           username_label: "Gebruikersnaam"
           username_note: "De opgegeven naam zal zichtbaar zijn voor andere gebruikers"
