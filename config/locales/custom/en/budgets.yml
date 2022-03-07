@@ -3,3 +3,9 @@ en:
     investments:
       investment:
         remove_support: "Remove your support"
+      new:
+        recommendations_title: "Describe:"
+        recommendation_one: "Give a brief description of the idea how you think you can give the Frisian language a future in your area."
+        recommendation_two: "How well does your idea align with what the province would like to achieve for the Frisian language?"
+        recommendation_three: "Is your idea achievable for an amount between 100 and 15,000 euros?"
+        recommendation_four: "What is the impact of implementing your idea?"

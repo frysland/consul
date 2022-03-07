@@ -21,8 +21,8 @@ fy-NL:
     steps:
       title: "Doch mei yn trije stappen"
       step_1:
-        title: "Oanmelde"
-        description: "Meitsje in akkount. Brûk in brûkersnamme, of jo mailadres om yn te loggen."
+        title: "Meitsje in akkount"
+        description: "Meitsje in akkount oan. Brûk in brûkersnamme, of jo mailadres om yn te loggen."
         link: "Meld jo binnen trije minuten oan"
       step_2:
         title: "Doch mei"
@@ -30,7 +30,7 @@ fy-NL:
         link: "Besjoch wat der op Stim fan Fryslân bart"
       step_3:
         title: "Diel"
-        description: "Bliuw belutsen by saken dy’t jo wichtich fine en diel se fia de social media."
+        description: "Bliuw belutsen by saken dy’t jo wichtich fine en diel se enventueel fia de social media."
     feed:
       most_active:
         debates: "Aktuele diskusjes"
@@ -44,7 +44,9 @@ fy-NL:
       see_process: "Sjoch proses"
       see_budget: "Besjoch ideeën"
       description:
-        budgets: "Ideeën binne prosessen wêrby’t boargers útmeitsje wat der bart. Nei dat de provinsje ûndersocht hat oft de ideeën mooglik binne, beslute ynwenners sels hokker ideeën útfierd wurde."
+        budgets: "Ynwenners fan Fryslân kinne hjir komme mei ideeën oer in ûnderwerp dat op it stuit aktueel is. Troch te stimmen op de bêste helbere ideeën, bepale Friezen sa sels hokker ideeën mei finansjele stipe fan provinsje troch de yntsjinners útfierd wurde kinne."
+      no_items:
+        debates: "Op it stuit binne der noch gjin diskusjes"
     cards:
       title: "Oare mooglikheden om mei te dwaan"
     recommended:
@@ -171,6 +173,9 @@ fy-NL:
       budget_investments: "Ideeën"
       actions: "Aksjes"
       filters:
+        comments:
+          one: "1 reaksje"
+          other: "%{count} reaksjes"
         follows:
           one: "1 folgjend"
           other: "%{count} folgjend"
@@ -250,7 +255,7 @@ fy-NL:
         recommendations: "Oanrekommandaasjes"
       recommendations:
         without_results: "Der binne gjin diskusjes dy’t by jo ynteressen oanslute"
-        without_interests: "Folgje inisjativen lykas ús"
+        without_interests: ""
         disable: "Oanrekommandaasjes foar diskusjes wurde net mear werjûn as jo se negearje. Jo kinne se op de side \"Myn akkount\" wer ynskeakelje."
         actions:
           success: "Oanrekommandaasjes foar diskusjes binne foar jo akkount útskeakele."
@@ -271,7 +276,7 @@ fy-NL:
         title: "Help by diskusjes"
         description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen yn de provinsje dy't jo belangryk fine."
         help_text_1: "As jo de diskusje graach yn it Frysk dwaan wolle mar Frysk skriuwen dreech fine, sjoch www.frysker.nl foar it ienfaldich neisjen of oersetten fan in tekst."
-        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo jo earst registrearje op %{org}."
+        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo in akkount oanmeitsje op %{org}."
         help_text_link: "Oanmelde"
       search_results:
         one: "mei de tekst <strong>'%{search_term}'</strong>"
@@ -354,7 +359,7 @@ fy-NL:
         recommendations: "Oanrekommandearre"
       recommendations:
         without_results: "Der binne gjin ideeën dy’t oan jo ynteressen foldogge."
-        without_interests: "Folgje in inisjatyf om op ‘e hichte te bliuwen"
+        without_interests: ""
         disable: "Oanrekommandaasjes fan ideeën wurde net mear werjûn as jo se útsette. Jo kinne se wer ynskeakelje op de side \"Myn akkount\""
         actions:
           success: "Oanrekommandaasjes foar ideeën binne no foar dit akkount útskeakele."

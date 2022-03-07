@@ -2,7 +2,7 @@ nl:
   devise_views:
     mailer:
       confirmation_instructions:
-        text: "U kunt uw e-mailadres bevestigen via de volgende link:"
+        text: "Hartelijk dank voor uw aanmelding op het participatieplatform Stem van Fryslân. Bevestig hieronder uw e-mailadres en laat uw stem horen."
       reset_password_instructions:
         ignore_text: "Negeer deze mail als u geen nieuw wachtwoord hebt aangevraagd."
         info_text: "Uw wachtwoord wordt niet aangepast tot je op de link klikt."
@@ -15,7 +15,7 @@ nl:
       login_items:
         login: "Inloggen"
         logout: "Uitloggen"
-        signup: "Aanmelden"
+        signup: "Account aanmaken"
     shared:
       sign_in: "Inloggen bestaand account"
       sign_up: "Aanmelden nieuw account"
@@ -24,18 +24,19 @@ nl:
       links:
         new_confirmation: "Geen activeringsinstructie voor uw account gekregen, ook niet in uw spam?"
         login: "Inloggen"
+        signup_link: "Account aanmaken"
     organizations:
       registrations:
         new:
           organization_name_label: "Naam van organisatie of collectief"
           responsible_name_note: "Dit is de persoon die namens de vereniging of het collectief initiatieven indient"
-          title: "Als organisatie of collectief registreren."
-          submit: "Registreren"
+          title: "Als organisatie of collectief een account aanmaken"
+          submit: "Account aanmaken"
         success:
           instructions_1: "Wij nemen zo snel mogelijk contact met u op om het collectief of de vereniging te verifiëren."
           instructions_2: "We hebben een mail met een bevestigingslink gestuurd naar het opgegeven e-mailadres."
           instructions_3: "Klik op de link om het account te bevestigen. Hierna kunt u als collectief of vereniging meedoen."
-          thank_you: "Bedankt voor het registreren als collectief of vereniging op de website."
+          thank_you: "Bedankt voor het aanmaken van een account als collectief of vereniging op deze website."
     sessions:
       new:
         submit: "Inloggen"
