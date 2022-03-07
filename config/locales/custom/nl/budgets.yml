@@ -101,7 +101,7 @@ nl:
               one: "<strong>U heeft op 1 idee gestemd</strong>"
               other: "<strong>U heeft op %{count} ideeën gestemd</strong>"
           voted_info_link: "Uw stem wijzigen"
-          create: "Nieuw idee delen"
+          create: "Dien uw idee in"
           zero: "U hebt nog niet op een idee gestemd."
           change_ballot: "Als u u bedenkt kunt u uw stemmen in %{check_ballot} verwijderen en opnieuw beginnen."
           check_ballot_link: "Bekijk mijn stemmen"

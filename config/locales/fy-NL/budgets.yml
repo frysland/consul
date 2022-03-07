@@ -100,8 +100,8 @@ fy-NL:
           check_ballot_link: "Besjoch myn stimmen"
           zero: "Jo hawwe noch net op in idee stimd."
           verified_only: "%{verify} jo akkount om in idee yn te tsjinjen. "
-          create: "Nij idee diele"
-          not_logged_in: "Om in idee yn te tsjinjen moatte jo %{sign_in} of %{sign_up} brûke."
+          create: "Tsjinje jo idee yn"
+          not_logged_in: "Om in idee yn te tsjinjen moatte jo %{sign_in} of %{sign_up}."
           voted:
             one: "Jo hawwe op <strong>1 idee</strong> stimd dat yn totaal %{amount_spent} kost."
             other: "Jo hawwe op <strong>%{count} ideeën</strong> stimd dy’t yn totaal %{amount_spent} koste."
@@ -182,7 +182,7 @@ fy-NL:
         different_heading_assigned: "Jo hawwe al stimd yn in oare groep: %{heading_link}"
     show:
       see_results: "Besjoch de útslach."
-      see_all_investments: "Besjoch alle Ideeën"
+      see_all_investments: "Besjoch alle ideeën"
       unfeasible: "Besjoch de net stimbere ideeën"
       unfeasible_title: "Net stimbere Ideeën"
       unselected: "Besjoch de Ideeën dy’t net selektearre binne foar de stimronde"

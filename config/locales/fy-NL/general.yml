@@ -7,10 +7,10 @@ fy-NL:
       title: "Myn profyl"
       user_permission_title: "Partisipaasje"
       user_permission_info: "Mei dit profyl kinne jo..."
-      user_permission_debates: "Dielnimme oan diskusjes"
+      user_permission_debates: "Sels in diskusje begjinne"
       user_permission_votes: "Stimme op ideeën"
-      user_permission_proposal: "Inisjativen yntsjinje"
-      user_permission_support_proposal: "Reagearje op peilingen"
+      user_permission_proposal: "In idee oanmeitsje"
+      user_permission_support_proposal: "Meidwaan oan in diskusje"
       email_on_comment_label: "Stjoer my in e-mail as immen op myn foarstel of diskusje reagearret"
       email_on_comment_reply_label: "Stjoer my in e-mail as immen op myn foarstel reagearret"
       email_digest_label: "Stjoer my in gearfetting fan meldingen oangeande foarstellen"
@@ -21,16 +21,16 @@ fy-NL:
     steps:
       title: "Doch mei yn trije stappen"
       step_1:
-        title: "Registrearje"
-        description: "Brûk Google, of jo mailadres om yn te loggen."
+        title: "Oanmelde"
+        description: "Meitsje in akkount. Brûk in brûkersnamme, of jo mailadres om yn te loggen."
         link: "Meld jo binnen trije minuten oan"
       step_2:
-        title: "Stim"
-        description: "Stim op ideeën dy't jo wichtich fine."
+        title: "Doch mei"
+        description: "Kom mei ideeën, stim of gean yn diskusje."
         link: "Besjoch wat der op Stim fan Fryslân bart"
       step_3:
         title: "Diel"
-        description: "Bliuw belutsen by ideeen dy't jo wichtich fine en diel se fia de social media."
+        description: "Bliuw belutsen by saken dy’t jo wichtich fine en diel se fia de social media."
     feed:
       most_active:
         debates: "Aktuele diskusjes"
@@ -88,7 +88,7 @@ fy-NL:
       privacy: "Privacyferklearring"
       contact_title: "Nim kontakt mei ús op"
       accessibility: "Tagonklikheid"
-      conditions: "Gebrûksbetingsten"
+      conditions: "Spulregels"
     header:
       administration_menu: "Menu"
       available_locales: "Beskikbere talen"
@@ -164,7 +164,8 @@ fy-NL:
   users:
     login_to_comment: "Jo moatte %{signin} of %{signup} om reagearje te kinnen."
     login_to_continue: "Jo moatte %{signin} of %{signup} om fierder te gean."
-    sign_up: "in akkount oameitsje"
+    signin: "ynlogge"
+    signup: "in akkount oameitsje"
     show:
       proposals: "Inisjativen"
       budget_investments: "Ideeën"
@@ -194,8 +195,8 @@ fy-NL:
         submit_button: "Stjoer priveeberjocht"
   form:
     accept_terms: "Ik begryp dat ik in idee foar provinsje Fryslân yntsjinje."
-    accept_terms_title: "Ik gean akkoart mei it privacybelied en de gebrûksbetingsten."
-    conditions: "Gebrûksbetingsten"
+    accept_terms_title: "Ik gean akkoart mei it privacybelied en de spulregels."
+    conditions: "Spulregels"
     debate: "Diskusje"
     direct_message: "Priveeberjocht"
     error: "Flater"
@@ -265,12 +266,12 @@ fy-NL:
         title: "Diskusjes"
         icon_alt: "Diskusje piktogram"
         help: "Help by diskusjes"
-        description: "Begjin in diskusje en diel jo miening mei oaren oer ûnderwerpen dy’t jo belangryk fine."
+        description: "Begjin in diskusje en diel jo miening mei oaren oer ûnderwerpen dy’t jo yn ús provinsje belangryk fine. As mear as 500 ynwenners oanjouwe in diskusje ûnderwerp wichtich te finen, dan sille wy dit fan Stim fan Fryslân út troch jaan oan de griffier fan de Provinsjale Steaten dy’t dan besjen kin wat sy mooglik mei dizze input dwaan kinne."
       section_footer:
         title: "Help by diskusjes"
-        description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen dy't jo belangryk fine."
-        help_text_1: "Diel jo miening oer alderhanne ûnderwerpen, kânsen of knyppunten dy't jo wichtich fine."
-        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo in akkount meitsje op %{org}."
+        description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen yn de provinsje dy't jo belangryk fine."
+        help_text_1: "As jo de diskusje graach yn it Frysk dwaan wolle mar Frysk skriuwen dreech fine, sjoch www.frysker.nl foar it ienfaldich neisjen of oersetten fan in tekst."
+        help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo jo earst registrearje op %{org}."
         help_text_link: "Oanmelde"
       search_results:
         one: "mei de tekst <strong>'%{search_term}'</strong>"
@@ -589,3 +590,20 @@ fy-NL:
     required_fields: "Alle fjilden markearre mei (*) binne ferplicht"
     required: "Ferplicht"
     optional: "Opsjoneel"
+    advanced_search:
+      title: "Avansearre sykje"
+      author_type: "Type"
+      author_type_blank: "Selektearje in kategory"
+      date: "Tiidrek"
+      date_range_blank: "Selektearje in tiidrek"
+      general: "Tekst"
+      general_placeholder: "Filterje op tekst"
+      date_1: "Ôfrûne 24 oeren"
+      date_2: "Ôfrûne wike"
+      date_3: "Ôfrûne moanne"
+      date_4: "Ôfrûne jier"
+      date_5: "Oanpaste termyn"
+      date_placeholder: "dd/mm/jjjj"
+      from: "Fan"
+      to: "Oant"
+      search: "Filterje"

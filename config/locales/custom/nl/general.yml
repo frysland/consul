@@ -5,7 +5,7 @@ nl:
       save_changes_submit: "Opslaan"
       title: "Mijn profiel"
       user_permission_info: "Met dit profiel kunt u..."
-      user_permission_debates: "Deelnemen aan discussies"
+      user_permission_debates: "Discussies beginnen"
       user_permission_votes: "Stemmen op ideeën"
       email_on_comment_label: "Stuur me een e-mail als iemand op mijn idee of discussie reageert"
       email_on_comment_reply_label: "Stuur me een e-mail wanneer iemand op mijn idee reageert"
@@ -13,8 +13,8 @@ nl:
       email_on_direct_message_label: "Stuur me een mail als ik een privébericht krijg"
       subscription_to_website_newsletter_label: "Stuur me een e-mail met relevante informatie over de website"
       public_activity_label: "Mijn activiteit is publiek"
-      user_permission_proposal: "Initiatieven indienen"
-      user_permission_support_proposal: "Reageren op peilingen"
+      user_permission_proposal: "Ideeën indienen"
+      user_permission_support_proposal: "Deelnemen aan discussies"
       user_permission_verify_info: "* Alleen voor inwoners in het gebied."
       username_label: "Gebruikersnaam"
       organization_responsible_name_placeholder: "Vertegenwoordiger van de organisatie of groep"
@@ -44,13 +44,13 @@ nl:
         hot_score: "Meest actief"
       section_header:
         title: "Discussies"
-        description: "Start een discussie en deel uw mening met anderen over onderwerpen die uw belangrijk vindt."
+        description: "Start een discussie en deel uw mening met anderen over onderwerpen die uw in onze provincie belangrijk vindt. Als meer dan 500 inwoners aangeven in discussie onderwerp belangrijk te vinden, dan zullen wij dit van Stem van Fryslân uit door geven aan de griffier van de Provinciale Staten die dan bekijken kan wat zij mogelijk met deze input kunnen doen."
         help: "Hulp bij discussies"
       section_footer:
         title: "Hulp bij discussies"
-        description: "Start een discussie om uw mening met anderen te delen over onderwerpen die u belangrijk vindt."
-        help_text_1: "Deel uw mening over allerlei onderwerpen, kansen of knelpunten die u belangrijk vindt."
-        help_text_2: "Om een discussie te starten of om deel te nemen aan een discussie moet u %{org} registreren."
+        description: "Start een discussie om uw mening met anderen te delen over onderwerpen in de provincie die u belangrijk vindt."
+        help_text_1: "Wilt u liever een discussie in het Fries voeren maar vindt u Fries schrijven moeilijk, zie www.frysker.nl. Hier kunt u eenvoudig een tekst nakijken of vertalen."
+        help_text_2: "Om een discussie te kunnen starten en mee te kunnen doen is het nodig om u eerst op %{org} te registreren."
         help_text_link: "aanmelden"
       title: "Discussies"
       search_form:
@@ -78,6 +78,8 @@ nl:
     not_saved: "ervoor dat deze %{resource} niet uitgevoerd kan worden. <br>Bekijk de rode tekst om te zien wat aangepast moet worden."
     budget/investment: "idee"
     accept_terms: "Ik begrijp dat ik een idee indien voor de provincie Fryslân"
+    conditions: "Spelregels"
+    accept_terms_title: "Ik ga akkoord met het privacybeleid en de spelregels"
   proposals:
     proposal:
       reason_for_supports_necessary: ""
@@ -312,6 +314,7 @@ nl:
       facebook: "facebook/consul"
       facebook_url: "https://facebook.com/consul"
       participation_text: "Beslis mee over de inrichting van uw provincie."
+      conditions: "Spelregels"
     dashboard:
       proposal_header:
         published: "Gepubliceerd"
@@ -340,12 +343,15 @@ nl:
   welcome:
     steps:
       step_1:
-        description: "Gebruik Google, of uw mailadres om in te loggen."
+        title: "Registreren"
+        description: "Maak een account aan. Gebruik een gebruikersnaam, of u e-mailadres om in te loggen."
         link: "Meld u binnen drie minuten aan"
       step_2:
-        description: "Stem op ideeën die u belangrijk vindt."
+        title: "Doe mee"
+        description: "Kom met ideeën, stem of ga in discussie."
       step_3:
-        description: "Blijf betrokken bij ideeën die u belangrijk vindt en deel ze via social media."
+        title: "Deel"
+        description: "Blijf betrokken bij zaken die u belangrijk vindt en deel deze via de social media."
     recommended:
       help: "Deze aanbevelingen worden gemaakt op basis van de termen van de discussies en ideeën die u volgt."
     feed:
