@@ -275,7 +275,7 @@ fy-NL:
       section_footer:
         title: "Help by diskusjes"
         description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen yn de provinsje dy't jo belangryk fine."
-        help_text_1: "As jo de diskusje graach yn it Frysk dwaan wolle mar Frysk skriuwen dreech fine, sjoch www.frysker.nl foar it ienfaldich neisjen of oersetten fan in tekst."
+        help_text_1: "As jo de diskusje graach yn it Frysk dwaan wolle mar Frysk skriuwen dreech fine, sjoch <a href=\"http://www.frysker.nl\" target=\"_blank\">www.frysker.nl</a> foar it ienfaldich neisjen of oersetten fan in tekst."
         help_text_2: "Om in diskusje te begjinnen of om mei te dwaan oan in diskusje moatte jo in akkount oanmeitsje op %{org}."
         help_text_link: "Oanmelde"
       search_results:

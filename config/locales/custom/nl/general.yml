@@ -49,7 +49,7 @@ nl:
       section_footer:
         title: "Hulp bij discussies"
         description: "Start een discussie om uw mening met anderen te delen over onderwerpen in de provincie die u belangrijk vindt."
-        help_text_1: "Wilt u liever een discussie in het Fries voeren maar vindt u Fries schrijven moeilijk, zie www.frysker.nl. Hier kunt u eenvoudig een tekst nakijken of vertalen."
+        help_text_1: "Wilt u liever een discussie in het Fries voeren maar vindt u Fries schrijven moeilijk, zie <a href=\"http://www.frysker.nl\" target=\"_blank\">www.frysker.nl</a>. Hier kunt u eenvoudig een tekst nakijken of vertalen."
         help_text_2: "Om een discussie te starten of om mee te kunnen doen moet u eerst een account aanmaken op %{org}."
         help_text_link: "aanmelden"
       title: "Discussies"
