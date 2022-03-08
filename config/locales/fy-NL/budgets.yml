@@ -75,6 +75,12 @@ fy-NL:
       next_phase: "Folgjende faze"
       prev_phase: "Foarige faze"
     investments:
+      new:
+        recommendations_title: "Beskriuw:"
+        recommendation_one: "Jou in koarte beskriuwing fan it idee hoe jo tinke de Fryske taal yn jo omjouwing takomst te jaan."
+        recommendation_two: "Hoe goed slút jo idee oan op wat de provinsje Fryslân graach foar de Fryske taal berikke wol? De provinsje wol graach in mear sichtber en fanselssprekkend plak foar it Frysk yn Fryslân. It Frysk as ien fan dé Europeeske talen."
+        recommendation_three: "Foar hokker bedrach tusken de 100 en 15.000 euro is jo idee te realisearjen? Wa moat hjir wat foar dwaan?"
+        recommendation_four: "Hoe grut is it effekt fan it útfieren fan jo idee? Foar jo wyk, jo doarp, stêd of de hiele provinsje?"
       form:
         tag_category_label:	"Kategorieën."
         tags_instructions: "Do kinst oanjaan wêr't dyn idee oer giet troch dizze in ûnderwerp of in label te jaan. Do kinst in eigen tafoege, of de besteande brûke."
