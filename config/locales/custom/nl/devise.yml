@@ -36,9 +36,9 @@ nl:
       unconfirmed: "Uw account is nog niet geactiveerd. Klik op de link in uw e-mail om uw account te activeren."
     registrations:
       destroyed: "Jammer dat u gaat! Uw account is succesvol verwijderd. Wij hopen u nog een keer terug te zien."
-      signed_up: "U bent geregistreerd"
-      signed_up_but_inactive: "U bent geregistreerd. U kon alleen niet automatisch aangemeld worden omdat uw account nog niet geactiveerd is. Klik hiervoor op de link die naar uw e-mailadres is verstuurd. Geen mail ontvangen? Neem dan contact op met stimfan@fryslan.frl"
-      signed_up_but_locked: "U bent geregistreerd. U kon alleen niet automatisch aangemeld worden omdat uw account geblokkeerd is. Neem hiervoor contact op met stimfan@fryslan.frl"
+      signed_up: "U heeft een account"
+      signed_up_but_inactive: "U heeft een account. U kon alleen niet automatisch aangemeld worden omdat uw account nog niet geactiveerd is. Klik hiervoor op de link die naar uw e-mailadres is verstuurd. Geen mail ontvangen? Neem dan contact op met stimfan@fryslan.frl"
+      signed_up_but_locked: "U heeft een account. U kon alleen niet automatisch aangemeld worden omdat uw account geblokkeerd is. Neem hiervoor contact op met stimfan@fryslan.frl"
       signed_up_but_unconfirmed: "U ontvangt via de e-mail instructies hoe u uw account kunt activeren. Geen mail ontvangen? Neem dan contact op met stimfan@fryslan.frl"
       update_needs_confirmation: "U hebt uw e-mailadres succesvol gewijzigd, maar we moeten uw nieuwe mailadres nog verifiëren. Controleer uw e-mail en klik op de link in de mail om uw mailadres te verifiëren"
       updated: "Uw accountgegevens zijn opgeslagen"

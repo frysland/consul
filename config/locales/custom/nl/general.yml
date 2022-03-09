@@ -30,7 +30,7 @@ nl:
       featured_debates: "Uitgelicht"
       start_debate: "Discussie starten"
       recommendations:
-        without_interests: "Volg initiatieven zodat wij"
+        without_interests: ""
         disable: "Aanbevelingen voor discussies worden niet meer weergegeven als u ze negeert. U kunt ze weer inschakelen op de pagina \"Mijn account\""
         without_results: "Er zijn geen discussies die aansluiten bij uw interesses"
         actions:
@@ -49,8 +49,8 @@ nl:
       section_footer:
         title: "Hulp bij discussies"
         description: "Start een discussie om uw mening met anderen te delen over onderwerpen in de provincie die u belangrijk vindt."
-        help_text_1: "Wilt u liever een discussie in het Fries voeren maar vindt u Fries schrijven moeilijk, zie www.frysker.nl. Hier kunt u eenvoudig een tekst nakijken of vertalen."
-        help_text_2: "Om een discussie te kunnen starten en mee te kunnen doen is het nodig om u eerst op %{org} te registreren."
+        help_text_1: "Wilt u liever een discussie in het Fries voeren maar vindt u Fries schrijven moeilijk, zie <a href=\"http://www.frysker.nl\" target=\"_blank\">www.frysker.nl</a>. Hier kunt u eenvoudig een tekst nakijken of vertalen."
+        help_text_2: "Om een discussie te starten of om mee te kunnen doen moet u eerst een account aanmaken op %{org}."
         help_text_link: "aanmelden"
       title: "Discussies"
       search_form:
@@ -144,7 +144,7 @@ nl:
         title: "Hulp bij initiatieven"
         description: "Steun lokale of regionale initiatieven. Bij voldoende steun, wordt een referendum gehouden."
       recommendations:
-        without_interests: "Volg een initiatief om op de hoogte te blijven"
+        without_interests: ""
         without_results: "Er zijn geen ideeën die aan uw interesses voldoen."
         disable: "Aanbevelingen van ideeën worden niet meer weergegeven als u ze negeert. U kunt ze weer inschakelen op de pagina 'Mijn account'"
         actions:
@@ -223,7 +223,7 @@ nl:
         description: "Geef u mening over specifieke onderwerpen"
       remaining: "U kunt nog <strong>%{days}</strong> meedoen"
     show:
-      cant_answer_not_logged_in: "U moet %{signin} of u %{signup} om verder te gaan"
+      cant_answer_not_logged_in: "U moet %{signin} of %{signup} om verder te gaan."
       cant_answer_wrong_geozone: "Deze peiling is niet actief voor uw gebied"
       comments_tab: "Reacties"
       more_info_options: "Meer informatie over de antwoordmogelijkheden"
@@ -249,10 +249,10 @@ nl:
   comments_helper:
     comments_title: "Reacties"
   users:
-    login_to_comment: "U moet %{signin} of uw %{signup} om te kunnen reageren."
-    login_to_continue: "U moet %{signin} of u %{signup} om verder te gaan."
+    login_to_comment: "U moet %{signin} of %{signup} om te kunnen reageren."
+    login_to_continue: "U moet %{signin} of %{signup} om verder te gaan."
     signin: "inloggen"
-    signup: "aanmelden"
+    signup: "een account aanmaken"
     show:
       proposals: "Initiatieven"
       budget_investments: "Ideeën"
@@ -343,27 +343,30 @@ nl:
   welcome:
     steps:
       step_1:
-        title: "Registreren"
+        title: "Maak een account"
         description: "Maak een account aan. Gebruik een gebruikersnaam, of u e-mailadres om in te loggen."
         link: "Meld u binnen drie minuten aan"
       step_2:
         title: "Doe mee"
         description: "Kom met ideeën, stem of ga in discussie."
+        link: "Bekijk wat er op Stim fan Fryslân gebeurt"
       step_3:
         title: "Deel"
-        description: "Blijf betrokken bij zaken die u belangrijk vindt en deel deze via de social media."
+        description: "Blijf betrokken bij ideeën die jij belangrijk vindt en deel ze enventueel via social media."
     recommended:
       help: "Deze aanbevelingen worden gemaakt op basis van de termen van de discussies en ideeën die u volgt."
     feed:
       description:
         proposals: "Initiatieven die genoeg steun ontvangen gaan door naar de stem fase. Zo kunnen alle inwoners van stad bepalen hoe de gemeente eruit komt te zien."
-        budgets: "Ideeën zijn processen waarbij burgers bepalen wat er gebeurt. Nadat de provincie onderzocht heeft welke ideeën mogelijk zijn, besluiten inwoners zelf welke ideeën worden uitgevoerd."
+        budgets: "Inwoners van Fryslân kunnen hier komen met ideeën over een onderwerp dat op het moment actueel is. Door te stemmen op de beste haalbare ideeën, bepalen Friezen zo zelf welke ideeën met financiële steun van de provincie door de indieners uitgevoerd kunnen worden."
       most_active:
         debates: "Actieve discussies"
         proposals: "Initiatieven"
         budgets: "Ideeën"
       see_budget: "Bekijk ideeën"
       see_all_proposals: "Alle initiatieven"
+      no_items:
+        debates: "Op dit moment zijn er nog geen discussies"
     cards:
       title: "Andere mogelijkheden om mee te doen"
     welcome:

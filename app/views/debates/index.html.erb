@@ -85,7 +85,7 @@
                             org: link_to(Setting["org_name"],
                                  new_user_registration_path))) %>
           </p>
-          <p><%= t("debates.index.section_footer.help_text_1") %></p>
+          <p><%= sanitize(t("debates.index.section_footer.help_text_1"), attributes: %w[href target]) %></p>
         </div>
       <% end %>
     </div>

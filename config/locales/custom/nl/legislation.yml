@@ -61,7 +61,7 @@ nl:
         form:
           leave_comment: "Laat uw reactie achter"
       participation:
-        unauthenticated: "U moet %{signin} of %{signup} om deel te nemen."
+        unauthenticated: "U moet %{signin} of %{signup} om verder te gaan."
     proposals:
       form:
         tags_label: "Onderwerpen/labels"
@@ -70,7 +70,7 @@ nl:
       participation:
         debate_phase_not_open: "De discussie is gesloten en opmerkingen worden niet meer geaccepteerd."
         organizations: "Deelname van organisaties in discussies is niet toegestaan"
-        unauthenticated: "U dient %{signin} of %{signup} om deel te nemen."
+        unauthenticated: "U moet %{signin} of %{signup} om mee te doen."
     summary:
       title: "Samenvatting"
       votes:

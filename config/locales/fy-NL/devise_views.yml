@@ -14,7 +14,7 @@ fy-NL:
     mailer:
       confirmation_instructions:
         confirm_link: "Befêstigje my akkount"
-        text: "Jo kinne jo e-mail adres befêstigje fia de folgjende link"
+        text: "Tige tank foar jo oanmelding op it partisipaasjeplatfoarm Stim fan Fryslân. Befêstigje hjirûnder jo e-mailadres en lit jo stim heare."
         title: "Wolkom"
         welcome: "Wolkom"
       reset_password_instructions:
@@ -46,14 +46,14 @@ fy-NL:
           responsible_name_label: "Folsleine namme fan de fertsjintwurdiger fan it kollektyf"
           responsible_name_note: "Dit is de persoan dy’t út namme fan de feriening of it kollektyf inisjativen yntsjinnet"
           submit: "Akkount oanmeitsje"
-          title: "As organisaasje of kollektyf in akkount meitsje"
+          title: "As organisaasje of kollektyf in akkount oanmeitsje"
         success:
           back_to_index: "Begrepen; werom nei haadside"
           title: "Oanmelde fan organisaasje of kollektyf"
           instructions_1: "Wy nimme sa gau mooglik kontakt mei jo op om it kollektyf of de feriening te ferifiearjen."
           instructions_2: "Wy hawwe in mail mei in befêstigingslink stjoerd nei it e-mailadres dat opjûn is."
           instructions_3: "Klik op de link om it akkount te befêstigjen. Dêrnei kinne jo as kollektyf of feriening meidwaan."
-          thank_you: "Betanke foar in akkount meitsje as kollektyf of feriening op de webside."
+          thank_you: "Betanke foar in akkount oanmeitsje as kollektyf of feriening op de webside."
     passwords:
       edit:
         change_submit: "Feroarje it wachtwurd"

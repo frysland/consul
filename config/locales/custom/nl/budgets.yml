@@ -109,7 +109,7 @@ nl:
           my_ballot: "Mijn stemmen"
           not_logged_in: "Om een idee in te dienen moet u %{sign_in} of %{sign_up}."
           sign_in: "inloggen"
-          sign_up: "registreren"
+          sign_up: "Account aanmaken"
           verified_only: "%{verify} uw account om een idee in te dienen."
           verify_account: "Uw account verifiëren"
           change_vote_info:
@@ -152,6 +152,12 @@ nl:
         unfeasibility_explanation: "Uitleg over geschiktheid idee"
         price_explanation: "Toelichting kosten"
         votes: "Stemmen"
+      new:
+        recommendations_title: "Beschrijf:"
+        recommendation_one: "Geef een korte beschrijving van het idee hoe u denkt de Friese taal in uw omgeving toekomst te geven."
+        recommendation_two: "Hoe goed sluit uw idee aan op wat de provincie graag voor de Friese taal wil bereiken? De provincie wil graag een meer zichtbare en vanzelfsprekende plek voor het Fries in Fryslân. Het Fries als één van dé Europese talen."
+        recommendation_three: "Voor welk bedrag tussen de 100 en 15.000 euro is uw idee te realiseren? Wie moet hier wat voor doen?"
+        recommendation_four: "Hoe groot is het effect van het uitvoeren van uw idee? Voor uw wijk, uw dorp, stad of de hele provincie?"
       form:
         title: "Deel een idee"
         map_location_instructions: "Klik op de kaart om de locatie aan te geven. U kunt de kaart bewegen"
