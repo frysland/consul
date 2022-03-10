@@ -52,6 +52,27 @@ describe "Admin custom pages", :admin do
       expect(page).to have_content "An example custom page"
       expect(page).to have_content "example-page"
     end
+
+    scenario "Do not add extra blank spaces" do
+      visit admin_site_customization_pages_path
+
+      click_link "Create new page"
+
+      fill_in "Title", with: "Custom page with paste text"
+      fill_in "site_customization_page_slug", with: "custom"
+      fill_in_ckeditor "Content", with: "Custom page with extra  blank  spaces..."
+      choose "Published"
+
+      click_button "Create Custom page"
+
+      visit page_path("custom")
+
+      within("#custom_page") do
+        expect(page).to have_content "Custom page with extra blank spaces..."
+        expect(page).not_to have_content "Custom page with extra &nbsp;blank &nbsp;spaces..."
+        expect(page).not_to have_content "&nbsp;"
+      end
+    end
   end
 
   context "Update" do

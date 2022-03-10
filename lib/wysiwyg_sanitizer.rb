@@ -8,6 +8,7 @@ class WYSIWYGSanitizer
   end
 
   def sanitize(html)
+    html = html&.gsub("&nbsp;", " ")
     ActionController::Base.helpers.sanitize(html, tags: allowed_tags, attributes: allowed_attributes)
   end
 end
