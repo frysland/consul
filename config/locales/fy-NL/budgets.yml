@@ -128,7 +128,7 @@ fy-NL:
             approval: "Jo kinne %{link} oant %{phase_end_date}."
           change_vote_link: "Jo stim wizigje"
         orders:
-          random: "eigenmachtich"
+          random: "Folchoarder net fan belang"
           confidence_score: "best beoardiele"
           price: "Op bedrach"
         search_results:

@@ -44,7 +44,7 @@ fy-NL:
       see_process: "Sjoch proses"
       see_budget: "Besjoch ideeën"
       description:
-        budgets: "Ynwenners fan Fryslân kinne hjir komme mei ideeën oer in ûnderwerp dat op it stuit aktueel is. Troch te stimmen op de bêste helbere ideeën, bepale Friezen sa sels hokker ideeën mei finansjele stipe fan provinsje troch de yntsjinners útfierd wurde kinne."
+        budgets: "Ynwenners fan Fryslân kinne hjir komme mei ideeën oer in ûnderwerp dat op it stuit aktueel is. Troch te stimmen op de bêste helbere ideeën, kieze Friezen sa sels hokker ideeën mei finansjele stipe fan provinsje troch de yntsjinners útfierd wurde kinne."
       no_items:
         debates: "Op it stuit binne der noch gjin diskusjes"
     cards:
@@ -271,7 +271,7 @@ fy-NL:
         title: "Diskusjes"
         icon_alt: "Diskusje piktogram"
         help: "Help by diskusjes"
-        description: "Begjin in diskusje en diel jo miening mei oaren oer ûnderwerpen dy’t jo yn ús provinsje belangryk fine. As mear as 500 ynwenners oanjouwe in diskusje ûnderwerp wichtich te finen, dan sille wy dit fan Stim fan Fryslân út troch jaan oan de griffier fan de Provinsjale Steaten dy’t dan besjen kin wat sy mooglik mei dizze input dwaan kinne."
+        description: "Begjin in diskusje en diel jo miening mei oaren oer ûnderwerpen dy’t jo yn ús provinsje wichtich fine. As mear as 500 ynwenners oanjouwe in diskusje ûnderwerp wichtich te finen, dan sille wy dit fan Stim fan Fryslân út troch jaan oan de griffier fan de Provinsjale Steaten dy’t dan besjen kin wat sy mooglik mei dizze ynbring dwaan kinne."
       section_footer:
         title: "Help by diskusjes"
         description: "Begjin in diskusje om jo miening mei oaren te dielen oer ûnderwerpen yn de provinsje dy't jo belangryk fine."
