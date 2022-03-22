@@ -13,8 +13,8 @@ fy-NL:
         title: "Befêstigje myn akkount"
     mailer:
       confirmation_instructions:
-        confirm_link: "Befêstigje my akkount"
-        text: "Tige tank foar jo oanmelding op it partisipaasjeplatfoarm Stim fan Fryslân. Befêstigje hjirûnder jo e-mailadres en lit jo stim heare."
+        confirm_link: "Befêstigje myn oanmelding"
+        text: "Tige tank foar it oanmelden op it partisipaasjeplatfoarm Stim fan Fryslân. Befêstigje hjirûnder jo e-mail adres en lit jo stim hearre."
         title: "Wolkom"
         welcome: "Wolkom"
       reset_password_instructions:
