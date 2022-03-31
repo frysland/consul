@@ -735,14 +735,17 @@ body > header,
   .jumbo {
     background: none;
 
-    @include breakpoint(large) {
-      background: none;
-      background-position: 100% 30%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      margin-right: calc(#{$global-width / 2} - 50vw);
-      margin-top: $line-height * 2;
-      min-height: $line-height * 20;
+    .header-background-image {
+
+      @include breakpoint(large) {
+        background: none;
+        background-position: 100% 30%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: calc(#{$global-width / 2} - 50vw);
+        margin-top: $line-height * 2;
+        min-height: $line-height * 20;
+      }
     }
 
     h1 {
