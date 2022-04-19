@@ -56,14 +56,14 @@ fy-NL:
       hi: "Bêste dielnimmer,"
       new_href: "Dat kin hjir"
       sincerely: "Groetnis fan Stim fan Fryslân"
-      sorry: "Jo idee is spitigernôch net mooglik. Wy tankje jo foar jo meidwaan."
+      sorry: "Hawwe jo noch fragen, mail dan nei stimfan@fryslan.frl"
       subject: "Spitich, jo idee is net te dwaan"
       new: "De provinsje hat nei jo idee sjoen. Spitigernôch docht bliken dat jo idee net mooglik is. Wy lizze ek út wêrom: %{url}"
       contact: "Hawwe jo fragen of wolle jo help by jo idee? Mail dan nei %{email}, wy tinke graach mei jo mei."
     budget_investment_selected:
       subject: "Lokwinske, idee '%{code}' giet troch nei de stimomloop"
       hi: "Bêste dielnimmer,"
-      share: "De provinsje hat alle yntsjinne ideeën besjoen en sjoen hoefolle at it likernôch kostje sil. Lokwinske, jo idee is mooglik! Jo kinne no begjinne mei jo lytse kampanje. Diel jo idee op social media en mei jo buorlju.<br>In soad sukses!"
+      share: "De provinsje hat alle yntsjinne ideeën besjoen en sjoen hoefolle at it likernôch kostje sil. Lokwinske, jo idee is mooglik! Jo kinne no begjinne mei jo lytse kampanje. Diel jo idee op social media en mei jo buorlju. In soad sukses!"
       share_button: "Diel jo idee"
       thanks: "Betanke foar it meidwaan"
       sincerely: "Groetnis fan Stim fan Fryslân"

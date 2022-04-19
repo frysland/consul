@@ -27,6 +27,7 @@ nl:
       contact: "Heeft u vragen of wilt u hulp bij uw idee? Mail dan naar %{email}, we denken graag met u mee."
       email: "stimfan@fryslan.frl"
       sincerely: "Groeten van de provincie Fryslân"
+      sorry: "Mocht u nog vragen hebben, mail dan naar stimfan@fryslan.frl"
     budget_investment_unselected:
       subject: "Helaas heeft uw idee het niet gehaald"
       hi: "Beste deelnemer,"
