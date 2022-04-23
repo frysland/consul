@@ -40,6 +40,7 @@ nl:
         different_heading_assigned: "U heeft al gestemd in een andere groep: %{heading_link}"
         not_logged_in: "U moet %{signin} of %{signup} om verder te gaan."
         casted_offline: "U heeft al offline deelgenomen"
+        not_enough_available_votes: "U heeft uw maximaal aantal stemmen bereikt."
     groups:
       show:
         unfeasible_title: "Niet stembare ideeën"
@@ -169,6 +170,7 @@ nl:
         tag_category_label: "Categorieën"
         tags_placeholder: "Voer de categorie in die u wilt gebruiken, gescheiden door kommas (',')"
       investment:
+        add: "Stem op dit idee"
         price_title: "Prijs"
         support_title: "Stemmen"
         give_support: "Steun"

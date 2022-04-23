@@ -38,6 +38,7 @@ fy-NL:
         casted_offline: "Jo hawwe al offline meidien"
         not_enough_money: "Jo kinne dit no net mear besteegje. As jo wolle kinne jo jo stim altyd noch oanpasse by de stimfaze."
         different_heading_assigned: "Jo hawwe al stimd in in oare groep: %{heading_link}"
+        not_enough_available_votes: "Jo hawwe jo maksimaal oantal stimmen berikt."
     groups:
       show:
         title: "Kies in mooglikheid"
@@ -166,7 +167,7 @@ fy-NL:
         feasibility_explanation: "Utlis oer geskiktens idee"
       wrong_price_format: "Allinne hiele sifers"
       investment:
-        add: "tafoegje"
+        add: "Stim op dit idee"
         already_added: "Jo hawwe dit idee al tafoege."
         already_supported: "Jo hawwe dit idee al stipe. Diel it!"
         support_title: "Stimme"
