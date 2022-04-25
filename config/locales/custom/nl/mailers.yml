@@ -49,6 +49,7 @@ nl:
       subject: "U heeft een privébericht gestuurd"
       title: "U heeft een nieuw privébericht ontvangen."
       unsubscribe: "Als u geen privéberichten wilt ontvangen, kijk dan eens bij %{account} en haal het vinkje weg bij \"ontvangen e-mails over privéberichten\"."
+      unsubscribe_account: "Mijn profiel"
     direct_message_for_sender:
       subject: "U heeft een privébericht gestuurd"
       title_html: "U heeft het volgende privébericht gestuurd naar <strong>%{receiver}</strong>:"
@@ -68,3 +69,4 @@ nl:
     proposal_notification_digest:
       info: "Dit zijn nieuwe meldingen van initiatieven die u hebt gesteund in %{org_name}."
       unsubscribe: "Als u geen e-mails hiervan wilt ontvangen, gaat u naar %{account} en verwijdert u het vinkje bij \"E-mails bij meldingen ontvangen\"."
+      unsubscribe_account: "Mijn profiel"
