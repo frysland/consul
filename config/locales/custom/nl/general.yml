@@ -69,6 +69,11 @@ nl:
     edit:
       editing: "Discussie bewerken"
       show_link: "Discussie bekijken"
+    debate:
+      votes:
+        zero: "Geen likes"
+        one: "1 like"
+        other: "%{count} likes"
   form:
     debate: "discussie"
     proposal: "initiatief"
@@ -96,6 +101,10 @@ nl:
         one: "1 steunbetuiging"
         other: "%{count} steunbetuigingen"
         zero: "nog geen steun"
+      votes:
+        zero: "Geen likes"
+        one: "1 like"
+        other: "%{count} likes"
       supports_necessary: "%{number} steunbetuigingen nodig"
       retire_form:
         retired_explanation_label: "Reden"
@@ -242,6 +251,10 @@ nl:
         one: "1 reactie (verbergen)"
         other: "%{count} reacties (verbergen)"
         zero: "Geen reacties"
+      votes:
+        zero: "Geen likes"
+        one: "1 like"
+        other: "%{count} likes"
       user_deleted: "Deelnemer verwijderd"
     actions:
       delete: "Verwijder reactie"

@@ -231,9 +231,9 @@ fy-NL:
         one: "1 reaksje"
         other: "%{count} reaksjes"
       votes:
-        zero: "Gjin stimmen"
-        one: "1 stim"
-        other: "%{count} stimmen"
+        zero: "Gjin tomkes"
+        one: "1 tomke"
+        other: "%{count} tomkes"
       edit:
         editing: "Diskusje bewurkje"
         form:
@@ -430,9 +430,9 @@ fy-NL:
         one: "1 stipebetsjûging"
         other: "%{count} stipebetsjûgings"
       votes:
-        zero: "Gjin stimmen"
-        one: "1 stim"
-        other: "%{count} stimmen"
+        zero: "Gjin tomkes"
+        one: "1 tomke"
+        other: "%{count} tomkes"
       supports_necessary: "%{number} stipebetsjûgings nedich"
       archived: "Dit inisjatyf is argivearre"
       successful: "Dit inisjatyf hat de stipebetsjûgings dy’t nedich binne"
@@ -569,9 +569,9 @@ fy-NL:
         zero: "Gjin reaksjes"
       user_deleted: "Dielnimmer fuorthelle"
       votes:
-        zero: "Gjin stimmen"
-        one: "1 stim"
-        other: "%{count} stimmen"
+        zero: "Gjin tomkes"
+        one: "1 tomke"
+        other: "%{count} tomkes"
     form:
       comment_as_admin: "Reageer als admin"
       comment_as_moderator: "Reageer als moderator"
