@@ -451,10 +451,6 @@ aside {
   }
 }
 
-.subtitle-form {
-  font-size: rem-calc(24);
-}
-
 // 1. Header
 // --------------------
 header,
@@ -738,17 +734,14 @@ body > header,
   .jumbo {
     background: none;
 
-    .header-background-image {
-
-      @include breakpoint(large) {
-        background: none;
-        background-position: 100% 30%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-right: calc(#{$global-width / 2} - 50vw);
-        margin-top: $line-height * 2;
-        min-height: $line-height * 20;
-      }
+    @include breakpoint(large) {
+      background: none;
+      background-position: 100% 30%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: calc(#{$global-width / 2} - 50vw);
+      margin-top: $line-height * 2;
+      min-height: $line-height * 20;
     }
 
     h1 {
@@ -1536,13 +1529,6 @@ footer {
   .budget-next-phase::before,
   .budget-next-phase-disabled::before {
     left: 52px;
-  }
-
-  .budget-phase {
-
-    @include breakpoint(medium) {
-      width: auto;
-    }
   }
 }
 
