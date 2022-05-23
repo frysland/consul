@@ -24,8 +24,7 @@ class Admin::SiteCustomization::InformationTextsController < Admin::SiteCustomiz
     end
 
     def delete_translations
-      languages_to_delete = params[:enabled_translations].select { |_, v| v == "0" }
-                                                         .keys
+      languages_to_delete = params[:enabled_translations].select { |_, v| v == "0" }.keys
 
       languages_to_delete.each do |locale|
         I18nContentTranslation.where(locale: locale).destroy_all
@@ -33,8 +32,6 @@ class Admin::SiteCustomization::InformationTextsController < Admin::SiteCustomiz
     end
 
     def enabled_translations
-      params.fetch(:enabled_translations, {})
-            .select { |_, v| v == "1" }
-            .keys
+      params.fetch(:enabled_translations, {}).select { |_, v| v == "1" }.keys
     end
 end
