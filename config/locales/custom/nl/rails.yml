@@ -5,3 +5,7 @@ nl:
   time:
     formats:
       datetime: "%d-%m-%Y · %H:%M:%S"
+  errors:
+    messages:
+      blank: "Dit veld moet tekst bevatten"
+      empty: "Dit veld moet tekst bevatten"

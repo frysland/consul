@@ -42,3 +42,7 @@ fy-NL:
   helpers:
     submit:
       create: "%{model} yntsjinje"
+  errors:
+    messages:
+      blank: "Dit fjild moat tekst befetsje"
+      empty: "Dit fjild moat tekst befetsje"
