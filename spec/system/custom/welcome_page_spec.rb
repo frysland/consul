@@ -107,4 +107,24 @@ describe "Welcome page" do
       expect(page).to have_css("img[alt=\"\"]")
     end
   end
+
+  scenario "Debates feed only show featured debates if there are any" do
+    featured_debate = create(:debate, featured_at: Time.current)
+    debate_1 = create(:debate)
+    debate_2 = create(:debate)
+
+    visit root_path
+
+    expect(page).to have_link featured_debate.title, href: "/debates/#{featured_debate.to_param}"
+    expect(page).not_to have_link debate_1.title, href: "/debates/#{debate_1.to_param}"
+    expect(page).not_to have_link debate_2.title, href: "/debates/#{debate_2.to_param}"
+
+    featured_debate.update!(featured_at: nil)
+
+    visit root_path
+
+    expect(page).to have_link featured_debate.title, href: "/debates/#{featured_debate.to_param}"
+    expect(page).to have_link debate_1.title, href: "/debates/#{debate_1.to_param}"
+    expect(page).to have_link debate_2.title, href: "/debates/#{debate_2.to_param}"
+  end
 end

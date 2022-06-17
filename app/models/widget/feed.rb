@@ -25,7 +25,7 @@ class Widget::Feed < ApplicationRecord
   end
 
   def debates
-    Debate.sort_by_hot_score.limit(limit)
+    Debate.featured.any? ? Debate.featured.limit(limit) : Debate.sort_by_hot_score.limit(limit)
   end
 
   def processes
