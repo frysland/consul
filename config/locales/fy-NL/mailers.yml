@@ -1,6 +1,8 @@
 fy-NL:
   mailers:
     no_reply: "Dizze mail is troch in e-mailadres ferstjoerd dêr’t net op reagearre wurde kin"
+    unsubscribe: "As jo dit soarte fan e-mails net mear ûntfange wolle, feroarje dan de ynstellingen op de \"%{link}\" side."
+    unsubscribe_link: "Myn Profyl"
     comment:
       hi: "Bêste"
       new_comment_by: "Jo hawwe in nije reaksje fan <strong>%{commenter}</strong>"
