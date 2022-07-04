@@ -5,7 +5,7 @@ nl:
         title: "Uw keuze"
         no_balloted_group_yet: "U heeft nog niet gestemd"
         voted:
-          one: "U heeft op <span>1</span> ideeën gestemd"
+          one: "U heeft op <span>1</span> idee gestemd"
           other: "U heeft op <span>%{count}</span> ideeën gestemd"
         voted_info: "Uw stem is bevestigd"
         voted_info_2: "U kunt uw stem altijd aanpassen tot deze fase wordt gesloten"
