@@ -28,3 +28,13 @@ a {
 .home-page .jumbo {
   margin-right: 0;
 }
+
+.view-mode .button {
+
+  &:hover {
+
+    &::before {
+      color: #fff;
+    }
+  }
+}
