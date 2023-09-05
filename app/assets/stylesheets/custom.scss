@@ -21,6 +21,15 @@ p {
   }
 }
 
+form select,
+form [type]:not([type="button"],
+[type=checkbox],
+[type=file],
+[type=radio],
+[type=submit]):not(.close-button) {
+  border: 2px solid #8397a5;
+}
+
 .ssb-linkedin {
   @include has-fa-icon(linkedin, brands);
   background: #0e76a8;
@@ -87,4 +96,18 @@ p {
       }
     }
   }
+}
+
+.map .map-marker .map-icon {
+  background: $brand;
+}
+
+.icon-check {
+  color: $brand !important;
+}
+
+.comment-votes button,
+.comment-votes form,
+.in-favor-against button {
+  color: #808080;
 }
