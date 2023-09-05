@@ -11,6 +11,16 @@ a {
   font-family: $body-font-family;
 }
 
+p {
+
+  a {
+
+    &:not(.button) {
+      text-decoration: underline !important;
+    }
+  }
+}
+
 .ssb-linkedin {
   @include has-fa-icon(linkedin, brands);
   background: #0e76a8;
