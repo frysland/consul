@@ -30,6 +30,15 @@ form [type]:not([type="button"],
   border: 2px solid #8397a5;
 }
 
+.home-page,
+.custom-page {
+
+  .card .figure-card figcaption h3 {
+    font-size: 1.25rem;
+    overflow-wrap: anywhere;
+  }
+}
+
 .ssb-linkedin {
   @include has-fa-icon(linkedin, brands);
   background: #0e76a8;
