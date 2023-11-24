@@ -46,3 +46,15 @@ fy-NL:
     messages:
       blank: "Dit fjild moat tekst befetsje"
       empty: "Dit fjild moat tekst befetsje"
+  number:
+    currency:
+      format:
+        significant: false
+        strip_insignificant_zeros: false
+    format:
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      format:
+        significant: true
+        strip_insignificant_zeros: true
