@@ -235,7 +235,6 @@ nl:
       cant_answer_not_logged_in: "U moet %{signin} of %{signup} om verder te gaan."
       cant_answer_wrong_geozone: "Deze peiling is niet actief voor uw gebied"
       comments_tab: "Reacties"
-      more_info_options: "Meer informatie over de antwoordmogelijkheden"
       info_menu: "Vragen?"
       already_voted_in_booth: "U heeft al gestemd op een fysieke stemlocatie. U mag niet nog een keer stemmen."
       already_voted_in_web: "U heeft al deelgenomen in deze stemronde. Als u nogmaals stemt, wordt u eerdere stemming overschreven."
@@ -565,7 +564,6 @@ nl:
   poll_questions:
     show:
       voted: "U hebt %{answer} gestemd"
-      vote_registered: "Uw stem is opgeslagen."
   proposal_notifications:
     new:
       title: "Stuur melding"
