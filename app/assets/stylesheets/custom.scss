@@ -47,12 +47,29 @@ a {
   padding: 0;
 }
 
-.budget-phases .tabs-title {
+.budget-phases {
 
-  &.current-phase-tab [aria-selected="true"] {
+  .tabs-title {
 
-    &:hover {
-      background: $dark;
+    &.current-phase-tab [aria-selected="true"] {
+
+      &:hover {
+        background: $dark;
+      }
+    }
+  }
+
+  .phase-title {
+
+    &.current-phase-tab a {
+
+      &:hover {
+        color: $text;
+
+        &::after {
+          border-left-color: $light-gray;
+        }
+      }
     }
   }
 }
