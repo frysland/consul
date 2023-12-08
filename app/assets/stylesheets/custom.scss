@@ -46,3 +46,13 @@ a {
 .top-bar {
   padding: 0;
 }
+
+.budget-phases .tabs-title {
+
+  &.current-phase-tab [aria-selected="true"] {
+
+    &:hover {
+      background: $dark;
+    }
+  }
+}
