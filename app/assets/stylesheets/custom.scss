@@ -55,6 +55,11 @@ a {
 
       &:hover {
         background: $dark;
+        color: #fff;
+
+        &::after {
+          border-left-color: $dark;
+        }
       }
     }
   }
