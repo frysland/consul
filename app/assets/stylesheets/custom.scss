@@ -120,3 +120,9 @@ form [type]:not([type="button"],
 .in-favor-against button {
   color: #808080;
 }
+
+.debate .debate-description,
+.proposal .proposal-description,
+.budget-investment .investment-project-description {
+  height: rem-calc(96);
+}
