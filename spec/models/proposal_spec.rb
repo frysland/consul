@@ -45,7 +45,7 @@ describe Proposal do
 
   describe "#description" do
     it "is not valid when very long" do
-      proposal.description = "a" * 6001
+      proposal.description = "a" * 10001
       expect(proposal).not_to be_valid
     end
   end
