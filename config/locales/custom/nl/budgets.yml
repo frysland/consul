@@ -38,7 +38,6 @@ nl:
         change_ballot: "Wijzig u stem"
         no_ballots_allowed: "De selectieronde is voorbij"
         different_heading_assigned: "U heeft al gestemd in een andere groep: %{heading_link}"
-        not_logged_in: "U moet %{signin} of %{signup} om verder te gaan."
         casted_offline: "U heeft al offline deelgenomen"
         not_enough_available_votes: "U heeft uw maximaal aantal stemmen bereikt."
     groups:
