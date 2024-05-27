@@ -107,6 +107,10 @@ form [type]:not([type="button"],
   }
 }
 
+.budget-phase-content h2 {
+  text-align: left;
+}
+
 .map .map-marker .map-icon {
   background: $brand;
 }
