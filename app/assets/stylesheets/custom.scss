@@ -55,6 +55,18 @@ form [type]:not([type="button"],
 
 .home-page .jumbo {
   margin-right: 0;
+
+  @include breakpoint(large) {
+    min-height: 0;
+  }
+
+  h1 {
+    font-size: rem-calc(36);
+
+    @include breakpoint(large) {
+      font-size: rem-calc(50);
+    }
+  }
 }
 
 .view-mode .button {
