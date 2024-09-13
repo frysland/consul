@@ -89,6 +89,25 @@ form [type]:not([type="button"],
 
 .budget-phases {
 
+  h2 {
+    font-size: rem-calc(24);
+
+    @include breakpoint(medium) {
+      font-size: rem-calc(34);
+    }
+  }
+
+  .tabs-panel {
+
+    h3 {
+      font-size: rem-calc(20);
+
+      @include breakpoint(medium) {
+        font-size: rem-calc(24);
+      }
+    }
+  }
+
   .tabs-title {
 
     &.current-phase-tab [aria-selected="true"] {
