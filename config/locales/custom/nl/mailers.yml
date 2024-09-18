@@ -1,27 +1,28 @@
 nl:
   mailers:
+    sincerely: "Met vriendelijke groet"
     budget_investment_created:
+      hi: "Beste <strong>%{author}</strong>,"
       subject: "Bedankt voor het delen van uw idee!"
       title: "Bedankt voor het delen van uw idee!"
       intro: "Beste <strong>%{author}</strong>,"
       text: "Bedankt voor het delen van uw idee <strong>%{investment}</strong> <strong>%{budget}</strong>."
       follow: "We houden u op de hoogte van het proces. U kunt dit ook volgen op <strong>%{link}</strong>."
       follow_link: "Ideeën"
-      sincerely: ""
       share: "Deel"
     config:
       manage_email_subscriptions: "Wilt u dit soort mails niet meer ontvangen? Verander dan hier uw instellingen"
     budget_investment_selected:
       subject: "Gefeliciteerd, idee '%{code}' gaat door naar de stemronde!"
       title: "Gefeliciteerd, uw idee gaat door naar de stemronde!"
-      hi: "Beste deelnemer,"
+      hi: "Beste <strong>%{author}</strong>,"
       share: "De provincie heeft alle ingediende ideeën bekeken, en gekeken hoeveel het ongeveer gaat kosten. Gefeliciteerd, uw idee is haalbaar! U kunt nu beginnen met je kleine campagne. Deel uw idee op social media en met uw buren.<br>Veel succes!"
       share_button: "Deel uw idee"
       sincerely: "Groeten van de provincie Fryslân"
       thanks: "Bedankt voor het meedoen. Mocht u nog vragen hebben, mail dan naar stimfan@fryslan.frl"
     budget_investment_unfeasible:
       subject: "Helaas, uw idee is onhaalbaar"
-      hi: "Beste deelnemer,"
+      hi: "Beste <strong>%{author}</strong>,"
       new: "De provincie heeft naar uw idee gekeken. Helaas blijkt dat uw idee niet haalbaar is. We leggen ook uit waarom: %{url}."
       new_href: "dat kan hier"
       contact: "Heeft u vragen of wilt u hulp bij uw idee? Mail dan naar %{email}, we denken graag met u mee."
@@ -30,7 +31,7 @@ nl:
       sorry: "Mocht u nog vragen hebben, mail dan naar stimfan@fryslan.frl"
     budget_investment_unselected:
       subject: "Helaas heeft uw idee het niet gehaald"
-      hi: "Beste deelnemer,"
+      hi: "Beste <strong>%{author}</strong>,"
       thanks: "Helaas heeft uw idee niet genoeg steun gekregen om door te gaan. Heel erg bedankt voor het delen van uw idee."
       sincerely: "Groeten van de provincie Fryslân"
     comment:
@@ -48,11 +49,13 @@ nl:
     direct_message_for_receiver:
       subject: "U heeft een privébericht gestuurd"
       title: "U heeft een nieuw privébericht ontvangen."
+      hi: "Beste <strong>%{receiver}</strong>,"
       unsubscribe: "Als u geen privéberichten wilt ontvangen, kijk dan eens bij %{account} en haal het vinkje weg bij \"ontvangen e-mails over privéberichten\"."
       unsubscribe_account: "Mijn profiel"
     direct_message_for_sender:
       subject: "U heeft een privébericht gestuurd"
       title: "U heeft een privébericht gestuurd"
+      hi: "Beste <strong>%{sender}</strong>,"
       text: "U heeft het volgende privébericht gestuurd naar <strong>%{receiver}</strong>:"
     user_invite:
       subject: "Welkom op de %{org_name}"
@@ -62,6 +65,7 @@ nl:
       ignore: "Heeft u deze uitnodiging ongevraagd ontvangen? Geen zorgen, dan kunt u deze mail negeren."
       thanks: "Bedankt!"
     email_verification:
+      hi: "Beste <strong>%{user}</strong>,"
       subject: "Bevestig uw e-mailadres"
       title: "Bevestig uw e-mailadres"
       text: "Bevestig uw account door de volgende link te gebruiken"
