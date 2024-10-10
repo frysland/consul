@@ -161,3 +161,10 @@ form [type]:not([type="button"],
 .budget-investment .investment-project-description {
   height: rem-calc(96);
 }
+
+.fixed-mobile-content {
+
+  &.is-stuck {
+    top: $line-height * 6 !important;
+  }
+}
